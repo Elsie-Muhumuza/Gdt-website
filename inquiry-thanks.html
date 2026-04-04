@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Inquiry received: Goddidthis Tropicals</title>
+    <meta name="robots" content="noindex" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="site-logo" href="index.html" aria-label="Goddidthis Tropicals home">
+          <img src="images/logo.png" alt="Goddidthis Tropicals, hands holding the sun" width="96" height="96" />
+          <span class="site-logo__text">
+            <span class="site-logo__name">Goddidthis</span>
+            <span class="site-logo__sub">Tropicals</span>
+          </span>
+        </a>
+        <div class="site-header__nav-group">
+          <nav aria-label="Primary">
+            <ul class="nav-primary">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="partners.html">Partners</a></li>
+              <li><a href="inquiry.html">Inquiry</a></li>
+            </ul>
+          </nav>
+          <a class="btn btn--nav-secondary" href="partners.html#partnership">Request Partnership</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="section">
+        <div class="section__inner">
+          <div class="inquiry-thanks">
+            <h1 class="inquiry-thanks__title">Inquiry received</h1>
+            <p class="inquiry-thanks__copy">
+              Thank you. Our trade desk will review your submission and respond using the business email you
+              provided, typically within two business days for qualified export inquiries.
+            </p>
+            <a class="btn btn--primary btn--compact" href="index.html">Return to home</a>
+            <a class="btn btn--ghost btn--compact" href="products.html">View products</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <div>
+          <div class="site-footer__brand">Goddidthis Tropicals</div>
+          <p class="site-footer__tagline">Stewards of the Equator</p>
+        </div>
+        <nav class="site-footer__nav" aria-label="Footer">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="products.html">Products</a>
+          <a href="partners.html">Partners</a>
+          <a href="inquiry.html">Inquiry</a>
+        </nav>
+        <p class="site-footer__copy">© <span id="y"></span> Goddidthis Tropicals. All rights reserved.</p>
+      </div>
+    </footer>
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

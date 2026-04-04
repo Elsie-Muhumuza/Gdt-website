@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Export inquiry: Goddidthis Tropicals</title>
+    <meta
+      name="description"
+      content="Submit a trade inquiry for export specifications, volumes, and partnership with Goddidthis Tropicals. For importers, distributors, and manufacturers."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- FormSubmit: replace trade@goddidthistropicals.com in action after you confirm the inbox. Set hidden _next to your full live URL, e.g. https://yoursite.com/inquiry-thanks.html -->
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="site-logo" href="index.html" aria-label="Goddidthis Tropicals home">
+          <img src="images/logo.png" alt="Goddidthis Tropicals, hands holding the sun" width="96" height="96" />
+          <span class="site-logo__text">
+            <span class="site-logo__name">Goddidthis</span>
+            <span class="site-logo__sub">Tropicals</span>
+          </span>
+        </a>
+        <div class="site-header__nav-group">
+          <nav aria-label="Primary">
+            <ul class="nav-primary">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="partners.html">Partners</a></li>
+              <li><a href="inquiry.html" aria-current="page">Inquiry</a></li>
+            </ul>
+          </nav>
+          <a class="btn btn--nav-secondary" href="partners.html#partnership">Request Partnership</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="section" aria-labelledby="inquiry-heading">
+        <div class="section__inner inquiry-layout">
+          <header class="inquiry-intro">
+            <p class="section__label">Trade desk</p>
+            <h1 id="inquiry-heading" class="section__title">Export inquiry</h1>
+            <p class="inquiry-intro__lead">
+              For qualified importers, distributors, and manufacturers. Complete the form below so our team
+              can route your request with the correct specifications and commercial context.
+            </p>
+          </header>
+
+          <form
+            class="form-b2b"
+            id="export-inquiry"
+            action="https://formsubmit.co/trade@goddidthistropicals.com"
+            method="POST"
+          >
+            <input type="hidden" name="_subject" value="Export inquiry: Goddidthis Tropicals website" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_next" value="inquiry-thanks.html" />
+
+            <fieldset class="form-b2b__fieldset">
+              <legend class="form-b2b__legend">Export inquiry details</legend>
+
+              <div class="form-b2b__field">
+                <label class="form-b2b__label" for="full_name">
+                  Full name<span class="form-b2b__required" aria-hidden="true">*</span>
+                </label>
+                <input
+                  type="text"
+                  id="full_name"
+                  name="full_name"
+                  required
+                  autocomplete="name"
+                  placeholder="As it appears on official correspondence"
+                />
+              </div>
+
+              <div class="form-b2b__field">
+                <label class="form-b2b__label" for="company">
+                  Company name<span class="form-b2b__required" aria-hidden="true">*</span>
+                </label>
+                <input
+                  type="text"
+                  id="company"
+                  name="company"
+                  required
+                  autocomplete="organization"
+                  placeholder="Registered legal entity"
+                />
+              </div>
+
+              <div class="form-b2b__field">
+                <label class="form-b2b__label" for="email">
+                  Business email<span class="form-b2b__required" aria-hidden="true">*</span>
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  autocomplete="email"
+                  inputmode="email"
+                  placeholder="name@company.com"
+                />
+              </div>
+
+              <div class="form-b2b__field">
+                <label class="form-b2b__label" for="country_target_market">
+                  Country / target market<span class="form-b2b__required" aria-hidden="true">*</span>
+                </label>
+                <p class="form-b2b__hint" id="country_target_market-hint">
+                  Your headquarters or primary destination market for this inquiry.
+                </p>
+                <input
+                  type="text"
+                  id="country_target_market"
+                  name="country_target_market"
+                  required
+                  autocomplete="country-name"
+                  placeholder="e.g. Germany, UAE, United States"
+                  aria-describedby="country_target_market-hint"
+                />
+              </div>
+
+              <div class="form-b2b__field">
+                <label class="form-b2b__label" for="product_interest">
+                  Product interest<span class="form-b2b__required" aria-hidden="true">*</span>
+                </label>
+                <select id="product_interest" name="product_interest" required>
+                  <option value="" disabled selected>Select a product line</option>
+                  <option value="Sun-Dried Gooseberries">Sun-Dried Gooseberries</option>
+                  <option value="Premium Long-Grain Rice">Premium Long-Grain Rice</option>
+                  <option value="Sun-Dried Banana Slices (Ndizi &amp; Bogoya)">
+                    Sun-Dried Banana Slices (Ndizi &amp; Bogoya)
+                  </option>
+                  <option value="Multiple products">Multiple products</option>
+                  <option value="General inquiry">General inquiry (no specific SKU yet)</option>
+                </select>
+              </div>
+
+              <div class="form-b2b__field">
+                <label class="form-b2b__label" for="monthly_volume">
+                  Monthly volume (indicative)<span class="form-b2b__required" aria-hidden="true">*</span>
+                </label>
+                <select id="monthly_volume" name="monthly_volume" required>
+                  <option value="" disabled selected>Select a range</option>
+                  <option value="Under 500 kg / month">Under 500 kg / month</option>
+                  <option value="500 kg to 2 MT / month">500 kg to 2 MT / month</option>
+                  <option value="2 to 10 MT / month">2 to 10 MT / month</option>
+                  <option value="10 to 50 MT / month">10 to 50 MT / month</option>
+                  <option value="50+ MT / month">50+ MT / month</option>
+                  <option value="Confidential / to be discussed">Confidential / to be discussed</option>
+                </select>
+              </div>
+
+              <div class="form-b2b__field">
+                <label class="form-b2b__label" for="intended_use">
+                  Intended use<span class="form-b2b__required" aria-hidden="true">*</span>
+                </label>
+                <select id="intended_use" name="intended_use" required>
+                  <option value="" disabled selected>Select channel</option>
+                  <option value="Retail">Retail</option>
+                  <option value="Wholesale">Wholesale</option>
+                  <option value="Manufacturing">Manufacturing</option>
+                </select>
+              </div>
+
+              <div class="form-b2b__field">
+                <label class="form-b2b__label" for="message">Message (optional)</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Incoterms preference, certification needs, port of discharge, timeline, or other commercial context."
+                ></textarea>
+              </div>
+            </fieldset>
+
+            <div class="form-b2b__hp" aria-hidden="true">
+              <label for="website">Leave blank</label>
+              <input type="text" id="website" name="_gotcha" tabindex="-1" autocomplete="off" />
+            </div>
+
+            <div class="form-b2b__footer">
+              <button class="btn btn--primary form-b2b__submit" type="submit">Submit export inquiry</button>
+              <p class="form-b2b__disclaimer">
+                <span class="form-b2b__required" aria-hidden="true">*</span> Required fields. Submissions are
+                reviewed by our trade desk for qualification. We do not share your details with third
+                parties for unrelated marketing.
+              </p>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <div>
+          <div class="site-footer__brand">Goddidthis Tropicals</div>
+          <p class="site-footer__tagline">Stewards of the Equator</p>
+        </div>
+        <nav class="site-footer__nav" aria-label="Footer">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="products.html">Products</a>
+          <a href="partners.html">Partners</a>
+          <a href="inquiry.html">Inquiry</a>
+        </nav>
+        <p class="site-footer__copy">© <span id="y"></span> Goddidthis Tropicals. All rights reserved.</p>
+      </div>
+    </footer>
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

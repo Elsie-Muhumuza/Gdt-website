@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About: Goddidthis Tropicals</title>
+    <meta
+      name="description"
+      content="Stewards of the Equator: Goddidthis Tropicals bridges Ugandan smallholder heritage and global export standards, with technical precision and a supply chain of integrity."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="site-logo" href="index.html" aria-label="Goddidthis Tropicals home">
+          <img src="images/logo.png" alt="Goddidthis Tropicals, hands holding the sun" width="96" height="96" />
+          <span class="site-logo__text">
+            <span class="site-logo__name">Goddidthis</span>
+            <span class="site-logo__sub">Tropicals</span>
+          </span>
+        </a>
+        <div class="site-header__nav-group">
+          <nav aria-label="Primary">
+            <ul class="nav-primary">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html" aria-current="page">About</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="partners.html">Partners</a></li>
+              <li><a href="inquiry.html">Inquiry</a></li>
+            </ul>
+          </nav>
+          <a class="btn btn--nav-secondary" href="partners.html#partnership">Request Partnership</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="section" aria-labelledby="about-heading">
+        <div class="section__inner">
+          <div class="about-hero">
+            <figure class="about-hero__figure">
+              <img
+                src="images/image-b-story.jpeg"
+                alt="Bowl of sun-dried golden gooseberries on a rustic wooden board with a fresh green sprig"
+                width="1200"
+                height="750"
+              />
+            </figure>
+            <div class="about-hero__content">
+              <p class="section__label">About us</p>
+              <h1 id="about-heading" class="section__title">Stewards of the Equator</h1>
+              <div class="about-prose">
+                <p>
+                  At Goddidthis Tropicals, we believe that the fertile volcanic soils of the Ugandan
+                  Equator are a divine gift. Our mission is to be the Stewards of the Equator, managing
+                  this abundance with technical precision and structural integrity.
+                </p>
+                <p>
+                  Founded by a Civil Engineer, we bridge the gap between smallholder heritage and global
+                  export standards. By partnering with local farmers, we ensure that every slice of fruit is
+                  traceable to the source, solar-dehydrated for purity, and handled with the honor it
+                  deserves.
+                </p>
+                <p>We don’t just export snacks; we engineer a supply chain of integrity.</p>
+              </div>
+              <div class="section-cta">
+                <a
+                  class="btn btn--primary btn--compact"
+                  href="mailto:trade@goddidthistropicals.com?subject=Export%20Specifications%20Request"
+                  >Request Export Specs</a
+                >
+                <a class="btn btn--nav-secondary" href="partners.html#partnership">Request Partnership</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="values">
+            <div class="values__item">
+              <h3>Provenance</h3>
+              <p>We prioritize traceable partnerships and transparent communication with importers.</p>
+            </div>
+            <div class="values__item">
+              <h3>Process</h3>
+              <p>Slow, sun-forward drying and careful handling preserve character in every batch.</p>
+            </div>
+            <div class="values__item">
+              <h3>Presentation</h3>
+              <p>Clean, uniform lots, ready for shelves that expect global competition.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <div>
+          <div class="site-footer__brand">Goddidthis Tropicals</div>
+          <p class="site-footer__tagline">Stewards of the Equator</p>
+        </div>
+        <nav class="site-footer__nav" aria-label="Footer">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="products.html">Products</a>
+          <a href="partners.html">Partners</a>
+          <a href="inquiry.html">Inquiry</a>
+        </nav>
+        <p class="site-footer__copy">© <span id="y"></span> Goddidthis Tropicals. All rights reserved.</p>
+      </div>
+    </footer>
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
