@@ -2,5 +2,8 @@
   "name": "goddidthis-tropicals",
   "private": true,
   "version": "1.0.0",
-  "description": "Static marketing site for Goddidthis Tropicals (Vercel)"
+  "description": "Static marketing site for Goddidthis Tropicals (Vercel)",
+  "scripts": {
+    "build": "node -e \"require('fs').accessSync('public/index.html'); process.exit(0)\""
+  }
 }
