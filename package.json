@@ -2,8 +2,5 @@
   "name": "goddidthis-tropicals",
   "private": true,
   "version": "1.0.0",
-  "description": "Static marketing site for Goddidthis Tropicals (Vercel)",
-  "scripts": {
-    "build": "echo Static site - no compilation required."
-  }
+  "description": "Static marketing site for Goddidthis Tropicals (Vercel)"
 }
